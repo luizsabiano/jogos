@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'ticTacToe/css/style.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'ticTacToe/css/botoes.css' %}"/>
+    <script type="text/javascript" src="{% static '/ticTacToe/js/lib/jquery-1.7.2.min.js' %}"></script>
+    <script type="text/javascript" src="{% static '/ticTacToe/js/lib/jquery.countdown.min.js' %}"></script>
+    <script type="text/javascript" src="{% static '/ticTacToe/js/lib/ajax_setup.js' %}"></script>
+    <script type="text/javascript" src="{% static '/ticTacToe/js/two_hosts.js' %}"></script>
+    <script type="text/javascript" src="{% static '/ticTacToe/js/date_to_string.js' %}"></script>
+</head>
+<body>
+
+    {% csrf_token %}
+
+    <div class="container">
+        <div id="jogo">
+            <div class="linha">
+                <div class="casa" id="casa1"></div>
+                <div class="casa" id="casa2"></div>
+                <div class="casa" id="casa3"></div>
+            </div>
+            <div class="linha">
+                <div class="casa" id="casa4"></div>
+                <div class="casa" id="casa5"></div>
+                <div class="casa" id="casa6"></div>
+            </div>
+            <div class="linha">
+                <div class="casa" id="casa7"></div>
+                <div class="casa" id="casa8"></div>
+                <div class="casa" id="casa9"></div>
+            </div>
+        </div>
+        <div id="resultado"><h1>Aguardando movimento do Jogador 1.</h1></div>
+        <div class="countdown"><span id="clock"></span>	</div>
+        </p>
+         <div id="novoJogo"></div>
+    </div>
+</body>
+</html>

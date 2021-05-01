@@ -1,0 +1,74 @@
+#jogo{
+    width: calc(100vw /2.67) ;
+    height:calc(100vw /2.67) ;
+}
+ 
+.linha{
+     height:calc(100% / 3);   // 33% tamanho do pai (#jogo)
+     
+}
+ 
+.casa{
+    width: calc(99% / 3.05);	
+    height: 100%;
+    float:left;
+}
+
+
+#casa1{
+    border-style: solid;
+    border-width: 0px 1px 1px 0px;
+}
+
+#casa2{
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+}
+
+#casa3{
+    border-style: solid;
+    border-width: 0px 0px 1px 1px;
+}
+
+
+#casa4{
+    border-style: solid;
+    border-width: 1px 1px 1px 0px;
+}
+
+
+#casa5{
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+}
+
+#casa6{
+    border-style: solid;
+    border-width: 1px 0px 1px 1px;
+}
+
+#casa7{
+    border-style: solid;
+    border-width: 1px 1px 0px 0px;
+}
+
+
+#casa8{
+    border-style: solid;
+    border-width: 1px 1px 0px 1px;
+}
+
+#casa9{
+    border-style: solid;
+    border-width: 1px 0px 0px 1px;
+}
+
+
+.container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }

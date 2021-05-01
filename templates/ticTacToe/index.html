@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>Jogos</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'ticTacToe/css/botoes.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'ticTacToe/css/style.css' %}"/>
+</head>
+<body>
+{% csrf_token %}
+<div class="container">
+    <div><h1>Jogo da Velha</h1></div>
+    <di><a href="/jogos/ticTacToe/one_host/"><button class="btn btn-blue btn-effect btn-round btn-shadow">1 Jogador</button></a></di>
+    <di><a href="/jogos/ticTacToe/two_hosts/"></p><button class="btn btn-blue btn-effect btn-round btn-shadow">2 Jogadores</button></a></di>
+
+</div>
+</body>
+</html>
