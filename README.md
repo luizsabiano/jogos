@@ -6,8 +6,8 @@ Permite dois jogores no mesmo equipamento (host) ou em equipamentos (hosts) dife
 
 Requirimentos: Python e Django.
 
-Também permite a execução no docker-compose. Como o docker e o docker-compose instalados execute:
+Também permite a execução no docker-compose. Com o docker e o docker-compose instalados, execute o comando abaixo na pasta raiz (jogos):
 
-docker-compose up na pasta raiz (jogos).
+docker-compose up
 
 
