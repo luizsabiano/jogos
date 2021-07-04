@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', IndexHostView.as_view()),
     path('jogos/ticTacToe/', include('ticTacToe.urls'), name='ticTacToe'),
+    path('jogos/hangman/', include('hangman.urls'), name='hangman')
 ]

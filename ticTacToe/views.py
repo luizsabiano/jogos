@@ -7,6 +7,10 @@ from ticTacToe.models import Player, Game
 
 
 class IndexHostView(TemplateView):
+    template_name = "index.html"
+
+
+class TicTacToeView(TemplateView):
     template_name = "ticTacToe/index.html"
 
 

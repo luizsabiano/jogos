@@ -1,0 +1,101 @@
+#game{
+    width: 450px ;
+    height: 600px ;
+    background-image: url("../img/Error0.png");  
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain; /* Resize the background image to cover the entire container */
+}
+ 
+.congratulations{
+     height:85%;
+
+}
+
+.lacuna1{
+     height:30px;
+     width: 100%;
+     float:right;
+}
+
+
+
+.appendMember{
+     height:300px;
+     width: 190px;
+     float:right;
+}
+
+ 
+.word{
+     height:8%;
+     width: 90%;
+     float:right;
+
+}
+ 
+
+.dictionary{
+     height:35%;   
+     width: 40%;
+     float:left;
+}
+
+
+.dict{
+    height: 15px;	
+    width: 30px;
+    float:left;
+    margin: 0px 0px 5px 5px;
+}
+
+.dica{
+    height: 15px;	
+    width: 40px;	
+    float:left;
+    margin: 0px 0px 5px 5px;
+}
+
+.newGame{
+    height: 12px;	
+    width: 100px;	
+    float:left;
+    margin: 0px 0px 5px 5px;
+    
+    
+    background-color: #6f071a;
+    color: white;
+    border: 2px solid #6f071a;
+    padding: 5px 10px 9px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+ 
+.newGame:hover{
+    float:left;
+    margin: 0px 0px 5px 5px;
+      
+    color:#6f071a;
+    background-color: white;
+} 
+ 
+.casa{
+    width: 25px;
+    height: 30px;
+    float:left;
+    margin: 0 5px 5px 5px;
+}
+
+
+
+.container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }

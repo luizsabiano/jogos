@@ -1,0 +1,74 @@
+<DOCTYPE html>
+<html>
+<head>
+	{% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static '/hangman/css/button.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static '/hangman/css/style.css' %}"/>
+    <script type="text/javascript" src="{% static '/hangman/js/lib/jquery-1.7.2.min.js' %}"></script>
+    <script type="text/javascript" src="{% static '/hangman/js/hangman.js' %}"></script>
+	<script type="text/javascript" src="{% static '/hangman/js/lib/ajax_setup.js' %}"></script>
+</head>
+<body>
+    {% csrf_token %}
+    <div class="container">
+        <div class="message" style="color:white" > <h4> . </h4> </div>
+        <div id="game">
+      	    <div class="congratulations">
+      	        <div class="lacuna1"> </div>
+      	    	<div class="appendMember"> </div>
+
+
+      	    </div>
+                <div class="word">
+            	<div class="casa" id="letter1"></div>
+                <div class="casa" id="letter2"></div>
+                <div class="casa" id="letter3"></div>
+                <div class="casa" id="letter4"></div>
+                <div class="casa" id="letter5"></div>
+                <div class="casa" id="letter6"></div>
+                <div class="casa" id="letter7"></div>
+                <div class="casa" id="letter8"></div>
+                <div class="casa" id="letter9"></div>
+		<div class="casa" id="letter10"></div>
+                <div class="casa" id="letter11"></div>
+                <div class="casa" id="letter12"></div>
+		<div class="casa" id="letter13"></div>
+                <div class="casa" id="letter14"></div>
+                <div class="casa" id="letter15"></div>
+	    </div>
+        </div>
+	</br>
+        <div class="dictionary">
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="A">A</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="B">B</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="C">C</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="D">D</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="E">E</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="F">F</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="G">G</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="H">H</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="I">I</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="J">J</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="K">K</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="L">L</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="M">M</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="N">N</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="O">O</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="P">P</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="Q">Q</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="R">R</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="S">S</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="T">T</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="U">U</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="V">V</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="W">W</div>
+	       <div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="X">X</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="Y">Y</div>
+		<div class="dict btn btn-blue btn-effect btn-round btn-shadow" id="Z">Z</div>
+		<div class="dict dica btn btn-blue btn-effect btn-round btn-shadow" id="tip">DICA</div>
+		<div class="dict newGame btn-effect btn-round btn-shadow" id="newGame">NOVO JOGO</div>
+        </div>
+    </div>
+
+</body>
+</html>
