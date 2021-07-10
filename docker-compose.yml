@@ -1,8 +1,7 @@
 version: '2'
 services:
-    web:
+    web_jogos:
         build: .
-        image: django-sandbox:latest
         command: python manage.py runserver 0.0.0.0:8000
         volumes:
             - .:/code
